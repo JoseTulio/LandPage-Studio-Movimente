@@ -1,0 +1,42 @@
+.vantagens {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  background-color: #f5f5f5;
+}
+
+.subtitulo {
+  font-size: 2.5rem;
+  line-height: 1;
+  max-width: 3ch;
+}
+
+.vantagens-texto{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.1rem;
+  gap: 20px;
+}
+
+.itens {
+  position: relative;
+  left: 100px; 
+  
+}
+
+@media (max-width: 700px) {
+  .vantagens {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .vantagens-texto {
+    font-size: 1.25rem;
+  }
+  .itens {
+    left: 20px;
+  }
+}
+

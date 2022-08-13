@@ -1,0 +1,59 @@
+.pacotes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.pacotes-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 0.9rem;
+  gap: 20px;
+  height: 300px;
+}
+
+.valores1 {
+  background-color: #f5f5f5;
+}
+
+.valores2 {
+  background-color: #f5f5f5;
+}
+
+.valores3 {
+  background-color: #f5f5f5;
+}
+
+.tempo {
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+.icon {
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+
+.valor {
+  position: relative;
+  top: 40px;
+  left: 80px;
+  font-size: larger;
+  font-style: oblique
+}
+
+.botao {
+  position: relative;
+  top: 110px;
+  left: 10px;
+  padding: 7px;
+  color: white;
+  background-color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+}
