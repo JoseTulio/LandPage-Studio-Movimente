@@ -1,0 +1,49 @@
+.footer {
+  background-image: linear-gradient(lightblue, lightcoral)
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px 60px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: #fff;
+}
+ 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  position: relative;
+  bottom: 80px;
+}
+
+.footer-descricao {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 40px;
+}
+.footer-contato {
+  position: relative;
+  bottom: 120px;
+}
+
+
+.footer-copy {
+  position: relative;
+  top: 70px;
+  right: 190px;
+}
+
+@media (max-width: 700px) {
+  .header{
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -57,3 +57,10 @@
   text-decoration: none;
   border-radius: 10px;
 }
+
+@media (max-width: 700px) {
+  .header{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
